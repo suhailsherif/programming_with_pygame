@@ -1,1 +1,3 @@
-READ ME!
+An attempt to teach basic programming with visual feedback with the help of pygame, from the Coding Club - IITG
+As of now, a simple set of functions have been implemented which allow animation without needing to deal with classes. sample1.py shows such a game.
+TODO: Allow for event handling, look how to manage fps.
