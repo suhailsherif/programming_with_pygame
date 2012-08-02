@@ -36,5 +36,6 @@ def draw(array):
 		if event.type == pygame.QUIT: sys.exit()
 	screen.fill((0, 0, 0))
 	for (name, x, y) in array:
-		screen.blit(assets[name], (x, y))
+		screen.blit(assets[name], (int(x), int(y)))
 	pygame.display.flip()
+	pygame.time.Clock().tick(200)
